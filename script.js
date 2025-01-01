@@ -26,7 +26,7 @@ function createCard(emoji) {
     const card = document.createElement('div');
     card.className = 'card';
     card.innerHTML = `
-        <div class="card-front"></div>
+        <div class="card-front">😶‍🌫️</div>
         <div class="card-back">${emoji}</div>
     `;
     card.addEventListener('click', flipCard);
